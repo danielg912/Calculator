@@ -25,5 +25,10 @@ namespace Calculator
         {
             throw new NotImplementedException();
         }
+
+        public int Exponents(int number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
