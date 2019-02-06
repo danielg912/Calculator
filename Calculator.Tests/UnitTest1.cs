@@ -36,6 +36,7 @@ namespace Calculator.Tests
 
         [Theory]
         [InlineData(3, 3, 9)]
+        [InlineData(4, 5, 20)]
         public void CalculatorMultiplies(int number1, int number2, int expected)
         {
             // Arrange
@@ -64,6 +65,7 @@ namespace Calculator.Tests
 
         [Theory]
         [InlineData(5, 25)]
+        [InlineData(6, 36)]
         public void CalculatorTakesExponent(int number1, int expected)
         {
             // Arrange

@@ -8,27 +8,27 @@ namespace Calculator
     {
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 + number2;
         }
 
         public int Subtract(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 - number2;
         }
 
         public int Multiply(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 * number2;
         }
 
         public int Divide(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 / number2;
         }
 
         public int Exponents(int number)
         {
-            throw new NotImplementedException();
+            return number * number;
         }
 
         public int Factorial(int number)
