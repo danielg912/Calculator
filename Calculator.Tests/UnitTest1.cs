@@ -33,5 +33,19 @@ namespace Calculator.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(3, 3, 9)]
+        public void CalculatorMultiplies(int number1, int number2, int expected)
+        {
+            // Arrange
+            Calculator calculator = new Calculator();
+
+            // Act
+            int actual = calculator.Multiply(number1, number2);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }

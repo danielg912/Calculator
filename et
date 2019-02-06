@@ -1,0 +1,59 @@
+[33mcommit a19c3caf28654bff152256e91911e2ba395a7dd0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 13:12:05 2019 -0600
+
+    Finished CalculatorAdd test and created CalculatorSubtract Test
+
+[33mcommit d9672c89f41f9feefe24e59517c330c5967bde90[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 11:09:52 2019 -0600
+
+    Added Calculator.Tests project and started CalculatorAdd test
+
+[33mcommit bdb17395cc4391b6f455dce29e877db42e93f7b8[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 10:37:23 2019 -0600
+
+    Added Factorial method
+
+[33mcommit 80a7cc88f89cfb1731f0263ca6d5c4fa46072b92[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 10:33:28 2019 -0600
+
+    Added Exponents method
+
+[33mcommit 49c847ba82259c75b19beec8222da001adf82dc0[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 10:31:31 2019 -0600
+
+    Added Divide method
+
+[33mcommit 1024237a1842db17d9a26ffd5d2b9861b309eb2f[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 09:52:54 2019 -0600
+
+    Added Multiply method
+
+[33mcommit 355545a270e02dae9124a243bb57b7ec05b67bb3[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 09:50:53 2019 -0600
+
+    Added Subtract method
+
+[33mcommit c5a2f98649f26e63fd621636f7d222a43bfa428b[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 09:48:44 2019 -0600
+
+    Added Calculator class and Add method
+
+[33mcommit 83914ae887e6f485ddcce6d2828257434868f760[m
+Author: Daniel Gonzalez <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 09:11:05 2019 -0600
+
+    Add project files.
+
+[33mcommit de6e3186775819fbbe03991330abe3ab5c800efa[m
+Author: danie <dgonzalez7752@gmail.com>
+Date:   Wed Feb 6 09:11:03 2019 -0600
+
+    Add .gitignore and .gitattributes.
