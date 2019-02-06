@@ -6,5 +6,14 @@ namespace Calculator
 {
     class Calculator
     {
+        public int Add(int number1, int number2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Subtract(int number1, int number2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
