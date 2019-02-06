@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Calculator
+    public class Calculator
     {
         public int Add(int number1, int number2)
         {
