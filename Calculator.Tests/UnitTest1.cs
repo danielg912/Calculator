@@ -47,5 +47,19 @@ namespace Calculator.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(6, 3, 2)]
+        public void CalculatorDivides(int number1, int number2, int expected)
+        {
+            // Arrange
+            Calculator calculator = new Calculator();
+
+            // Act
+            int actual = calculator.Divide(number1, number2);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
