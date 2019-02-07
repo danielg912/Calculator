@@ -31,9 +31,13 @@ namespace Calculator
             return Math.Pow(number1, number2);
         }
 
-        public int Factorial(int number)
+        public int Factorial(int number1)
         {
-            throw new NotImplementedException();
+            for (int i = number1 - 1; i > 0; i--)
+            {
+                number1 *= i;
+            }
+            return number1;
         }
     }
 }

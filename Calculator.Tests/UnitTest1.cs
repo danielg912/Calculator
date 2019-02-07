@@ -66,7 +66,7 @@ namespace Calculator.Tests
         [Theory]
         [InlineData(5, 2, 25)]
         [InlineData(6, 2, 36)]
-        [InlineData(3, 4, 108)]
+        [InlineData(3, 4, 81)]
         public void CalculatorTakesExponent(double number1, double number2, double expected)
         {
             // Arrange
@@ -74,6 +74,21 @@ namespace Calculator.Tests
 
             // Act
             double actual = calculator.Exponents(number1, number2);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData(5, 120)]
+        [InlineData(6, 720)]
+        public void CalculatorTakesFactorial(int number1, int expected)
+        {
+            // Arrange
+            Calculator calculator = new Calculator();
+
+            // Act
+            int actual = calculator.Factorial(number1);
 
             // Assert
             Assert.Equal(expected, actual);
