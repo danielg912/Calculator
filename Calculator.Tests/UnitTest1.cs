@@ -64,19 +64,19 @@ namespace Calculator.Tests
         }
 
         [Theory]
-        [InlineData(5, 25)]
-        [InlineData(6, 36)]
-        public void CalculatorTakesExponent(int number1, int expected)
+        [InlineData(5, 2, 25)]
+        [InlineData(6, 2, 36)]
+        [InlineData(3, 4, 108)]
+        public void CalculatorTakesExponent(double number1, double number2, double expected)
         {
             // Arrange
             Calculator calculator = new Calculator();
 
             // Act
-            int actual = calculator.Exponents(number1);
+            double actual = calculator.Exponents(number1, number2);
 
             // Assert
             Assert.Equal(expected, actual);
-
         }
     }
 }
